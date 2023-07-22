@@ -1,5 +1,5 @@
 // const TelegramBot = require('node-telegram-bot-api');
-// const token = '5974021571:AAGAr8sgSUHwAEOJBXKorkO6b5xF2Xbi1PY';
+// const token = 'tokken';
 // const bot = new TelegramBot(token, {polling: true});
 // bot.on('message', (msg) => {
 
@@ -18,9 +18,7 @@ const dotenv = require("dotenv");
 dotenv.config();
 const TelegramBot = require('node-telegram-bot-api');
 
-//we can keep this in .env file to protect it
 
-// const TELEGRAM_BOT_TOKEN = '5974021571:AAGAr8sgSUHwAEOJBXKorkO6b5xF2Xbi1PY';
 const TELEGRAM_BOT_TOKEN = process.env.bot_tokken;
 const TELEGRAM_GROUP_ID = process.env.teligram_groupid;
 
